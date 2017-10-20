@@ -1,0 +1,7 @@
+<view class='container'>
+  <image class='user-avatar' src='/images/head.jpg'></image>
+  <text class='user-name'>hello,zane</text>
+  <view class='moto-container' bindtap='letStart'>
+    <text class='moto'>let's start</text>
+  </view>
+</view>
