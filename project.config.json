@@ -9,7 +9,7 @@
 	"compileType": "weapp",
 	"libVersion": "1.6.0",
 	"appid": "wx0d3ff0c5463e9ce6",
-	"projectname": "reader",
+	"projectname": "wxreader",
 	"condition": {
 		"weapp": {
 			"current": -1,
