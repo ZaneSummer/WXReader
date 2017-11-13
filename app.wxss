@@ -1,3 +1,10 @@
 text{
    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
+.container {
+  /*弹性模型*/
+  display: flex;
+  /*垂直方向 列方向 排布*/
+  flex-direction: column;
+ 
+}

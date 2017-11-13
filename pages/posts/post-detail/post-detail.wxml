@@ -1,4 +1,23 @@
-<view>
-<text> this is third page</text>
+<view class='container'>
+  <image class='image-cover' src='{{postKey.headImgSrc}}'></image>
+  <image class='audio' src='/images/music/music-start.png'></image>
+  <view class='author-view'>
+    <image class='post-author' src='{{postKey.avatar}}'></image>
+    <text class='detail-author'>{{postKey.author}}</text>
+    <text class='detail-author'>发表于</text>
+    <text class='detail-author'>{{postKey.dateTime}}</text>
+  </view>
+  <text class='detail-title'>{{postkey.title}}</text>
+
+
+  <view class='collection-container'>
+    <view class='line'></view>
+    <image class='clollection' src='/images/icon/collection.png'></image>
+    <image class='share' src='/images/icon/share.png'></image>
+  </view>
+
+  <text class='content'>
+    {{postKey.detail}}
+  </text>
 
 </view>

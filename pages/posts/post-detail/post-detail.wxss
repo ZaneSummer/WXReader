@@ -1,0 +1,86 @@
+.image-cover {
+  width: 100%;
+  height: 200px;
+}
+
+.audio{
+  width: 102rpx;
+  height: 110rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -51rpx;
+  top: 180rpx;
+  opacity: 0.5;
+}
+.author-view{
+  margin-top: 20rpx;
+  margin-left: 25rpx;
+  margin-right: 15rpx;
+}
+
+.post-author {
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+  margin-right: 8px;
+  
+}
+
+.detail-author {
+  font-size: 25rpx;
+  color: #AEAEAE;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+
+.detail-title {
+  font-size: 30rpx;
+  font-weight: 600;
+  color: #4B556C;
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+  margin-top: 40rpx;
+  margin-bottom: 80rpx;
+  letter-spacing: 10rpx;
+  line-height: 40rpx;
+}
+
+.line{
+  background: #eee;
+  width: 100%;
+  height: 3rpx;
+  vertical-align: middle;
+   position: absolute;
+ 
+}
+
+.clollection{
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  right: 150rpx;
+  top: -19px;
+}
+
+.share{
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  right: 0rpx;
+  top: -19px;
+}
+.collection-container{
+  position: relative;
+  margin-left: 25rpx;
+  margin-right: 50rpx;
+  margin-bottom: 20rpx;
+}
+.content{
+  font-size: 26rpx;
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+  color: #7F7F7F;
+  letter-spacing: 6rpx;
+  line-height: 40rpx;
+  font-weight: 500;
+}

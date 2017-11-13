@@ -17,9 +17,8 @@ Page({
 
   onItemTap: function (event) {
     var item = event.currentTarget.dataset.object;
-    console.log(item.date);
     wx.navigateTo({
-      url: '../posts/post-detail/post-detail',
+      url: '../posts/post-detail/post-detail?id=' + item.postId
     })
   }
 
